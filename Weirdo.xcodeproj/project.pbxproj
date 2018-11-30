@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0A87AE214E3BFE005ED85E /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A87AD214E3BFE005ED85E /* 暂停.png */; };
+		0B0A87B6214E3DDD005ED85E /* 唱片1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A87B5214E3DDD005ED85E /* 唱片1.jpg */; };
+		0B0A87B8214E5490005ED85E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0A87B7214E5490005ED85E /* UserNotifications.framework */; };
+		0B0A87BA214E549A005ED85E /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0A87B9214E549A005ED85E /* UserNotificationsUI.framework */; };
+		0B0A87BE214E5CDB005ED85E /* LocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A87BD214E5CDB005ED85E /* LocalNotification.m */; };
+		0B0A87C4214E6DD0005ED85E /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B0A87C3214E6DD0005ED85E /* heart.json */; };
+		0B1D5ADD21453ADD00183371 /* MusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D5ADC21453ADD00183371 /* MusicController.m */; };
+		0B1D5AE021453DE000183371 /* lrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D5ADF21453DE000183371 /* lrcCell.m */; };
+		0B1D5AEB2145408D00183371 /* 天空之城.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D5AEA2145408C00183371 /* 天空之城.lrc */; };
+		0B1D5AED2145409400183371 /* 天空之城.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D5AEC2145409400183371 /* 天空之城.mp3 */; };
+		0B1D5AF5214552D400183371 /* 唱片2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D5AF4214552D400183371 /* 唱片2.jpg */; };
+		0B1D5AFD2145564100183371 /* 音乐-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D5AFC2145564100183371 /* 音乐-2.png */; };
+		0B1D5B072145591B00183371 /* 主页背景2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D5B062145591900183371 /* 主页背景2.jpg */; };
+		0B1D5B0921455D2700183371 /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B1D5B0821455D2700183371 /* 头像.jpg */; };
+		0B4DDDB92132F96E00A49B07 /* firstOpenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DDDB82132F96E00A49B07 /* firstOpenVC.m */; };
+		0B4DDDC0213307CA00A49B07 /* moon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B4DDDBE213307CA00A49B07 /* moon2.jpg */; };
+		0B4E0995214B8C1600D23E59 /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4E0994214B8C1600D23E59 /* 播放.png */; };
+		0B4E0999214B8CC000D23E59 /* 下一首.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4E0998214B8CC000D23E59 /* 下一首.png */; };
+		0B4E099B214B8CCF00D23E59 /* 上一首.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4E099A214B8CCF00D23E59 /* 上一首.png */; };
+		0B4E09A9214B94FD00D23E59 /* UIImageView+JXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E09A8214B94FD00D23E59 /* UIImageView+JXExtension.m */; };
+		0B4E09AE214B98D000D23E59 /* musicPlayerSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E09AD214B98D000D23E59 /* musicPlayerSingle.m */; };
+		0B532A32214D4A8A007A166F /* lrcCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B532A31214D4A8A007A166F /* lrcCell.xib */; };
+		0B63F0F7214E7471009D0C34 /* 按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B63F0F6214E7471009D0C34 /* 按钮.png */; };
+		0B78FA35212C6519000A2507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78FA34212C6519000A2507 /* AppDelegate.m */; };
+		0B78FA3B212C6519000A2507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B78FA39212C6519000A2507 /* Main.storyboard */; };
+		0B78FA3D212C651A000A2507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B78FA3C212C651A000A2507 /* Assets.xcassets */; };
+		0B78FA40212C651A000A2507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B78FA3E212C651A000A2507 /* LaunchScreen.storyboard */; };
+		0B78FA43212C651A000A2507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78FA42212C651A000A2507 /* main.m */; };
+		0B78FA4D212C651B000A2507 /* WeirdoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78FA4C212C651B000A2507 /* WeirdoTests.m */; };
+		0B78FA58212C651B000A2507 /* WeirdoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B78FA57212C651B000A2507 /* WeirdoUITests.m */; };
+		0B8CF055214D863A00EEA496 /* 没那么简单.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B8CF054214D863A00EEA496 /* 没那么简单.mp3 */; };
+		0B8CF057214D865000EEA496 /* 没那么简单.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 0B8CF056214D865000EEA496 /* 没那么简单.lrc */; };
+		0BAC076F2142D3C800EB1AD6 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAC076E2142D3C800EB1AD6 /* HomeController.m */; };
+		0BD2F626212DB93500CC7F85 /* ufo-first.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BD2F625212DB93500CC7F85 /* ufo-first.json */; };
+		0BD2F62A212DB97C00CC7F85 /* NSObject+JXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2F629212DB97C00CC7F85 /* NSObject+JXExtension.m */; };
+		0BD2F62E212DB99C00CC7F85 /* NSDictionary+JXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2F62D212DB99C00CC7F85 /* NSDictionary+JXExtension.m */; };
+		0BF16E65214C3B9B00F2C27E /* 圆点.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF16E64214C3B9B00F2C27E /* 圆点.png */; };
+		0BF16E68214C449E00F2C27E /* LrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF16E66214C449E00F2C27E /* LrcModel.m */; };
+		766FDE1142CDC48242E8C090 /* libPods-Weirdo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B57CD520BBC44E1864D1C9 /* libPods-Weirdo.a */; };
+		85B59BFC216F23310031B7E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85B59BFE216F23310031B7E1 /* InfoPlist.strings */; };
+		85B59C02216F24DE0031B7E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85B59C04216F24DE0031B7E1 /* Localizable.strings */; };
+		85FFF1BD21703CCD00DCF3FD /* NSBundle+JXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FFF1BC21703CCD00DCF3FD /* NSBundle+JXExtension.m */; };
+		85FFF1C0217074CD00DCF3FD /* MBProgressHUD+JXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FFF1BF217074CD00DCF3FD /* MBProgressHUD+JXExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B78FA49212C651B000A2507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B78FA28212C6519000A2507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B78FA2F212C6519000A2507;
+			remoteInfo = Weirdo;
+		};
+		0B78FA54212C651B000A2507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B78FA28212C6519000A2507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B78FA2F212C6519000A2507;
+			remoteInfo = Weirdo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0A87AD214E3BFE005ED85E /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		0B0A87B5214E3DDD005ED85E /* 唱片1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "唱片1.jpg"; sourceTree = "<group>"; };
+		0B0A87B7214E5490005ED85E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		0B0A87B9214E549A005ED85E /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		0B0A87BC214E5CDB005ED85E /* LocalNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalNotification.h; sourceTree = "<group>"; };
+		0B0A87BD214E5CDB005ED85E /* LocalNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalNotification.m; sourceTree = "<group>"; };
+		0B0A87C3214E6DD0005ED85E /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		0B1D5ADB21453ADD00183371 /* MusicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicController.h; sourceTree = "<group>"; };
+		0B1D5ADC21453ADD00183371 /* MusicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicController.m; sourceTree = "<group>"; };
+		0B1D5ADE21453DE000183371 /* lrcCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lrcCell.h; sourceTree = "<group>"; };
+		0B1D5ADF21453DE000183371 /* lrcCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lrcCell.m; sourceTree = "<group>"; };
+		0B1D5AEA2145408C00183371 /* 天空之城.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "天空之城.lrc"; sourceTree = "<group>"; };
+		0B1D5AEC2145409400183371 /* 天空之城.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "天空之城.mp3"; sourceTree = "<group>"; };
+		0B1D5AF4214552D400183371 /* 唱片2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "唱片2.jpg"; sourceTree = "<group>"; };
+		0B1D5AFC2145564100183371 /* 音乐-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音乐-2.png"; sourceTree = "<group>"; };
+		0B1D5B062145591900183371 /* 主页背景2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "主页背景2.jpg"; sourceTree = "<group>"; };
+		0B1D5B0821455D2700183371 /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
+		0B4DDDB72132F96E00A49B07 /* firstOpenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstOpenVC.h; sourceTree = "<group>"; };
+		0B4DDDB82132F96E00A49B07 /* firstOpenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstOpenVC.m; sourceTree = "<group>"; };
+		0B4DDDBE213307CA00A49B07 /* moon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon2.jpg; sourceTree = "<group>"; };
+		0B4E0994214B8C1600D23E59 /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
+		0B4E0998214B8CC000D23E59 /* 下一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一首.png"; sourceTree = "<group>"; };
+		0B4E099A214B8CCF00D23E59 /* 上一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上一首.png"; sourceTree = "<group>"; };
+		0B4E09A7214B94FD00D23E59 /* UIImageView+JXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JXExtension.h"; sourceTree = "<group>"; };
+		0B4E09A8214B94FD00D23E59 /* UIImageView+JXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JXExtension.m"; sourceTree = "<group>"; };
+		0B4E09AC214B98D000D23E59 /* musicPlayerSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = musicPlayerSingle.h; sourceTree = "<group>"; };
+		0B4E09AD214B98D000D23E59 /* musicPlayerSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musicPlayerSingle.m; sourceTree = "<group>"; };
+		0B532A31214D4A8A007A166F /* lrcCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = lrcCell.xib; sourceTree = "<group>"; };
+		0B63F0F6214E7471009D0C34 /* 按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮.png"; sourceTree = "<group>"; };
+		0B78FA30212C6519000A2507 /* Weirdo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weirdo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B78FA33212C6519000A2507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B78FA34212C6519000A2507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B78FA3A212C6519000A2507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B78FA3C212C651A000A2507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B78FA3F212C651A000A2507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B78FA41212C651A000A2507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B78FA42212C651A000A2507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B78FA48212C651B000A2507 /* WeirdoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeirdoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B78FA4C212C651B000A2507 /* WeirdoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeirdoTests.m; sourceTree = "<group>"; };
+		0B78FA4E212C651B000A2507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B78FA53212C651B000A2507 /* WeirdoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeirdoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B78FA57212C651B000A2507 /* WeirdoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeirdoUITests.m; sourceTree = "<group>"; };
+		0B78FA59212C651B000A2507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8CF054214D863A00EEA496 /* 没那么简单.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "没那么简单.mp3"; sourceTree = "<group>"; };
+		0B8CF056214D865000EEA496 /* 没那么简单.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "没那么简单.lrc"; sourceTree = "<group>"; };
+		0BAC076D2142D3C800EB1AD6 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		0BAC076E2142D3C800EB1AD6 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		0BD2F625212DB93500CC7F85 /* ufo-first.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ufo-first.json"; sourceTree = "<group>"; };
+		0BD2F628212DB97C00CC7F85 /* NSObject+JXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JXExtension.h"; sourceTree = "<group>"; };
+		0BD2F629212DB97C00CC7F85 /* NSObject+JXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JXExtension.m"; sourceTree = "<group>"; };
+		0BD2F62C212DB99C00CC7F85 /* NSDictionary+JXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JXExtension.h"; sourceTree = "<group>"; };
+		0BD2F62D212DB99C00CC7F85 /* NSDictionary+JXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JXExtension.m"; sourceTree = "<group>"; };
+		0BF16E64214C3B9B00F2C27E /* 圆点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆点.png"; sourceTree = "<group>"; };
+		0BF16E66214C449E00F2C27E /* LrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrcModel.m; sourceTree = "<group>"; };
+		0BF16E67214C449E00F2C27E /* LrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LrcModel.h; sourceTree = "<group>"; };
+		7DFFCB49F0333B793979166F /* Pods-Weirdo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weirdo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weirdo/Pods-Weirdo.debug.xcconfig"; sourceTree = "<group>"; };
+		85B59BF5216F21E40031B7E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		85B59BF6216F22360031B7E1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		85B59BF7216F22360031B7E1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		85B59BF9216F22620031B7E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		85B59BFD216F23310031B7E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85B59BFF216F23350031B7E1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		85B59C03216F24DE0031B7E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		85B59C05216F24DF0031B7E1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		85B59C06216F250D0031B7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		85FFF1BB21703CCD00DCF3FD /* NSBundle+JXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+JXExtension.h"; sourceTree = "<group>"; };
+		85FFF1BC21703CCD00DCF3FD /* NSBundle+JXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+JXExtension.m"; sourceTree = "<group>"; };
+		85FFF1BE217074CD00DCF3FD /* MBProgressHUD+JXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+JXExtension.h"; sourceTree = "<group>"; };
+		85FFF1BF217074CD00DCF3FD /* MBProgressHUD+JXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+JXExtension.m"; sourceTree = "<group>"; };
+		D5B57CD520BBC44E1864D1C9 /* libPods-Weirdo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Weirdo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EB4D550FA4C79F5BD20497 /* Pods-Weirdo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weirdo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weirdo/Pods-Weirdo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B78FA2D212C6519000A2507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0A87BA214E549A005ED85E /* UserNotificationsUI.framework in Frameworks */,
+				0B0A87B8214E5490005ED85E /* UserNotifications.framework in Frameworks */,
+				766FDE1142CDC48242E8C090 /* libPods-Weirdo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B78FA45212C651B000A2507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B78FA50212C651B000A2507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0A87BB214E5CB9005ED85E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A87BC214E5CDB005ED85E /* LocalNotification.h */,
+				0B0A87BD214E5CDB005ED85E /* LocalNotification.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0B1D5AE92145407F00183371 /* MusicRecores */ = {
+			isa = PBXGroup;
+			children = (
+				0B8CF054214D863A00EEA496 /* 没那么简单.mp3 */,
+				0B1D5AEC2145409400183371 /* 天空之城.mp3 */,
+				0B8CF056214D865000EEA496 /* 没那么简单.lrc */,
+				0B1D5AEA2145408C00183371 /* 天空之城.lrc */,
+			);
+			path = MusicRecores;
+			sourceTree = "<group>";
+		};
+		0B4DDDBA2133078300A49B07 /* ImageResources */ = {
+			isa = PBXGroup;
+			children = (
+				0B63F0F6214E7471009D0C34 /* 按钮.png */,
+				0BF16E64214C3B9B00F2C27E /* 圆点.png */,
+				0B4E099A214B8CCF00D23E59 /* 上一首.png */,
+				0B4E0998214B8CC000D23E59 /* 下一首.png */,
+				0B4E0994214B8C1600D23E59 /* 播放.png */,
+				0B0A87AD214E3BFE005ED85E /* 暂停.png */,
+				0B4DDDBE213307CA00A49B07 /* moon2.jpg */,
+				0B1D5B062145591900183371 /* 主页背景2.jpg */,
+				0B1D5AFC2145564100183371 /* 音乐-2.png */,
+				0B1D5AF4214552D400183371 /* 唱片2.jpg */,
+				0B0A87B5214E3DDD005ED85E /* 唱片1.jpg */,
+				0B1D5B0821455D2700183371 /* 头像.jpg */,
+			);
+			path = ImageResources;
+			sourceTree = "<group>";
+		};
+		0B4E099C214B8EE100D23E59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B4DDDB72132F96E00A49B07 /* firstOpenVC.h */,
+				0B4DDDB82132F96E00A49B07 /* firstOpenVC.m */,
+				0BAC076D2142D3C800EB1AD6 /* HomeController.h */,
+				0BAC076E2142D3C800EB1AD6 /* HomeController.m */,
+				0B1D5ADB21453ADD00183371 /* MusicController.h */,
+				0B1D5ADC21453ADD00183371 /* MusicController.m */,
+				0B78FA39212C6519000A2507 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0B4E099D214B8EF400D23E59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B1D5ADE21453DE000183371 /* lrcCell.h */,
+				0B1D5ADF21453DE000183371 /* lrcCell.m */,
+				0B532A31214D4A8A007A166F /* lrcCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B4E09AB214B989000D23E59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BF16E67214C449E00F2C27E /* LrcModel.h */,
+				0BF16E66214C449E00F2C27E /* LrcModel.m */,
+				0B4E09AC214B98D000D23E59 /* musicPlayerSingle.h */,
+				0B4E09AD214B98D000D23E59 /* musicPlayerSingle.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B78FA27212C6519000A2507 = {
+			isa = PBXGroup;
+			children = (
+				0B78FA32212C6519000A2507 /* Weirdo */,
+				0B78FA4B212C651B000A2507 /* WeirdoTests */,
+				0B78FA56212C651B000A2507 /* WeirdoUITests */,
+				0B78FA31212C6519000A2507 /* Products */,
+				C210AEAED09E74A9C6442A15 /* Pods */,
+				AFDA524C69170D3083BB8DA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B78FA31212C6519000A2507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B78FA30212C6519000A2507 /* Weirdo.app */,
+				0B78FA48212C651B000A2507 /* WeirdoTests.xctest */,
+				0B78FA53212C651B000A2507 /* WeirdoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B78FA32212C6519000A2507 /* Weirdo */ = {
+			isa = PBXGroup;
+			children = (
+				0B78FA33212C6519000A2507 /* AppDelegate.h */,
+				0B78FA34212C6519000A2507 /* AppDelegate.m */,
+				0B0A87BB214E5CB9005ED85E /* Tools */,
+				0BD2F627212DB95100CC7F85 /* Catalogue */,
+				0B4E09AB214B989000D23E59 /* Model */,
+				0B4E099D214B8EF400D23E59 /* View */,
+				0B4E099C214B8EE100D23E59 /* Controller */,
+				8554A49A216EEE4C0059E802 /* Supporting Files */,
+				0B78FA3C212C651A000A2507 /* Assets.xcassets */,
+				0B78FA3E212C651A000A2507 /* LaunchScreen.storyboard */,
+				0B78FA41212C651A000A2507 /* Info.plist */,
+				0B78FA42212C651A000A2507 /* main.m */,
+			);
+			path = Weirdo;
+			sourceTree = "<group>";
+		};
+		0B78FA4B212C651B000A2507 /* WeirdoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B78FA4C212C651B000A2507 /* WeirdoTests.m */,
+				0B78FA4E212C651B000A2507 /* Info.plist */,
+			);
+			path = WeirdoTests;
+			sourceTree = "<group>";
+		};
+		0B78FA56212C651B000A2507 /* WeirdoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B78FA57212C651B000A2507 /* WeirdoUITests.m */,
+				0B78FA59212C651B000A2507 /* Info.plist */,
+			);
+			path = WeirdoUITests;
+			sourceTree = "<group>";
+		};
+		0BD2F624212DB91400CC7F85 /* AnimationRecourse */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A87C3214E6DD0005ED85E /* heart.json */,
+				0BD2F625212DB93500CC7F85 /* ufo-first.json */,
+			);
+			path = AnimationRecourse;
+			sourceTree = "<group>";
+		};
+		0BD2F627212DB95100CC7F85 /* Catalogue */ = {
+			isa = PBXGroup;
+			children = (
+				0BD2F628212DB97C00CC7F85 /* NSObject+JXExtension.h */,
+				0BD2F629212DB97C00CC7F85 /* NSObject+JXExtension.m */,
+				0BD2F62C212DB99C00CC7F85 /* NSDictionary+JXExtension.h */,
+				0BD2F62D212DB99C00CC7F85 /* NSDictionary+JXExtension.m */,
+				0B4E09A7214B94FD00D23E59 /* UIImageView+JXExtension.h */,
+				0B4E09A8214B94FD00D23E59 /* UIImageView+JXExtension.m */,
+				85FFF1BB21703CCD00DCF3FD /* NSBundle+JXExtension.h */,
+				85FFF1BC21703CCD00DCF3FD /* NSBundle+JXExtension.m */,
+				85FFF1BE217074CD00DCF3FD /* MBProgressHUD+JXExtension.h */,
+				85FFF1BF217074CD00DCF3FD /* MBProgressHUD+JXExtension.m */,
+			);
+			path = Catalogue;
+			sourceTree = "<group>";
+		};
+		8554A49A216EEE4C0059E802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B1D5AE92145407F00183371 /* MusicRecores */,
+				0BD2F624212DB91400CC7F85 /* AnimationRecourse */,
+				0B4DDDBA2133078300A49B07 /* ImageResources */,
+				85B59BFE216F23310031B7E1 /* InfoPlist.strings */,
+				85B59C04216F24DE0031B7E1 /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFDA524C69170D3083BB8DA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B0A87B9214E549A005ED85E /* UserNotificationsUI.framework */,
+				0B0A87B7214E5490005ED85E /* UserNotifications.framework */,
+				D5B57CD520BBC44E1864D1C9 /* libPods-Weirdo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C210AEAED09E74A9C6442A15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DFFCB49F0333B793979166F /* Pods-Weirdo.debug.xcconfig */,
+				F0EB4D550FA4C79F5BD20497 /* Pods-Weirdo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B78FA2F212C6519000A2507 /* Weirdo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B78FA5C212C651B000A2507 /* Build configuration list for PBXNativeTarget "Weirdo" */;
+			buildPhases = (
+				1E409F8CDA35587E1CC5C4AC /* [CP] Check Pods Manifest.lock */,
+				0B78FA2C212C6519000A2507 /* Sources */,
+				0B78FA2D212C6519000A2507 /* Frameworks */,
+				0B78FA2E212C6519000A2507 /* Resources */,
+				1D219ABC1362FEDD9D7C2324 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weirdo;
+			productName = Weirdo;
+			productReference = 0B78FA30212C6519000A2507 /* Weirdo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B78FA47212C651B000A2507 /* WeirdoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B78FA5F212C651B000A2507 /* Build configuration list for PBXNativeTarget "WeirdoTests" */;
+			buildPhases = (
+				0B78FA44212C651B000A2507 /* Sources */,
+				0B78FA45212C651B000A2507 /* Frameworks */,
+				0B78FA46212C651B000A2507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B78FA4A212C651B000A2507 /* PBXTargetDependency */,
+			);
+			name = WeirdoTests;
+			productName = WeirdoTests;
+			productReference = 0B78FA48212C651B000A2507 /* WeirdoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B78FA52212C651B000A2507 /* WeirdoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B78FA62212C651B000A2507 /* Build configuration list for PBXNativeTarget "WeirdoUITests" */;
+			buildPhases = (
+				0B78FA4F212C651B000A2507 /* Sources */,
+				0B78FA50212C651B000A2507 /* Frameworks */,
+				0B78FA51212C651B000A2507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B78FA55212C651B000A2507 /* PBXTargetDependency */,
+			);
+			name = WeirdoUITests;
+			productName = WeirdoUITests;
+			productReference = 0B78FA53212C651B000A2507 /* WeirdoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B78FA28212C6519000A2507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = _Ljx;
+				TargetAttributes = {
+					0B78FA2F212C6519000A2507 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0B78FA47212C651B000A2507 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0B78FA2F212C6519000A2507;
+					};
+					0B78FA52212C651B000A2507 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0B78FA2F212C6519000A2507;
+					};
+				};
+			};
+			buildConfigurationList = 0B78FA2B212C6519000A2507 /* Build configuration list for PBXProject "Weirdo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 0B78FA27212C6519000A2507;
+			productRefGroup = 0B78FA31212C6519000A2507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B78FA2F212C6519000A2507 /* Weirdo */,
+				0B78FA47212C651B000A2507 /* WeirdoTests */,
+				0B78FA52212C651B000A2507 /* WeirdoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B78FA2E212C6519000A2507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4E099B214B8CCF00D23E59 /* 上一首.png in Resources */,
+				0B8CF055214D863A00EEA496 /* 没那么简单.mp3 in Resources */,
+				0B1D5B072145591B00183371 /* 主页背景2.jpg in Resources */,
+				0B78FA40212C651A000A2507 /* LaunchScreen.storyboard in Resources */,
+				0B532A32214D4A8A007A166F /* lrcCell.xib in Resources */,
+				0B1D5AED2145409400183371 /* 天空之城.mp3 in Resources */,
+				0B4E0999214B8CC000D23E59 /* 下一首.png in Resources */,
+				0B1D5AF5214552D400183371 /* 唱片2.jpg in Resources */,
+				0BD2F626212DB93500CC7F85 /* ufo-first.json in Resources */,
+				85B59BFC216F23310031B7E1 /* InfoPlist.strings in Resources */,
+				0B0A87B6214E3DDD005ED85E /* 唱片1.jpg in Resources */,
+				0B4DDDC0213307CA00A49B07 /* moon2.jpg in Resources */,
+				0B1D5AEB2145408D00183371 /* 天空之城.lrc in Resources */,
+				85B59C02216F24DE0031B7E1 /* Localizable.strings in Resources */,
+				0B63F0F7214E7471009D0C34 /* 按钮.png in Resources */,
+				0B1D5B0921455D2700183371 /* 头像.jpg in Resources */,
+				0B78FA3D212C651A000A2507 /* Assets.xcassets in Resources */,
+				0B0A87C4214E6DD0005ED85E /* heart.json in Resources */,
+				0BF16E65214C3B9B00F2C27E /* 圆点.png in Resources */,
+				0B0A87AE214E3BFE005ED85E /* 暂停.png in Resources */,
+				0B4E0995214B8C1600D23E59 /* 播放.png in Resources */,
+				0B8CF057214D865000EEA496 /* 没那么简单.lrc in Resources */,
+				0B1D5AFD2145564100183371 /* 音乐-2.png in Resources */,
+				0B78FA3B212C6519000A2507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B78FA46212C651B000A2507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B78FA51212C651B000A2507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D219ABC1362FEDD9D7C2324 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Weirdo/Pods-Weirdo-resources.sh",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weirdo/Pods-Weirdo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E409F8CDA35587E1CC5C4AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weirdo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B78FA2C212C6519000A2507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B78FA43212C651A000A2507 /* main.m in Sources */,
+				0BD2F62E212DB99C00CC7F85 /* NSDictionary+JXExtension.m in Sources */,
+				0B1D5ADD21453ADD00183371 /* MusicController.m in Sources */,
+				0B78FA35212C6519000A2507 /* AppDelegate.m in Sources */,
+				0B0A87BE214E5CDB005ED85E /* LocalNotification.m in Sources */,
+				85FFF1C0217074CD00DCF3FD /* MBProgressHUD+JXExtension.m in Sources */,
+				0B4DDDB92132F96E00A49B07 /* firstOpenVC.m in Sources */,
+				0B1D5AE021453DE000183371 /* lrcCell.m in Sources */,
+				85FFF1BD21703CCD00DCF3FD /* NSBundle+JXExtension.m in Sources */,
+				0B4E09AE214B98D000D23E59 /* musicPlayerSingle.m in Sources */,
+				0BAC076F2142D3C800EB1AD6 /* HomeController.m in Sources */,
+				0B4E09A9214B94FD00D23E59 /* UIImageView+JXExtension.m in Sources */,
+				0BF16E68214C449E00F2C27E /* LrcModel.m in Sources */,
+				0BD2F62A212DB97C00CC7F85 /* NSObject+JXExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B78FA44212C651B000A2507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B78FA4D212C651B000A2507 /* WeirdoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B78FA4F212C651B000A2507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B78FA58212C651B000A2507 /* WeirdoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B78FA4A212C651B000A2507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B78FA2F212C6519000A2507 /* Weirdo */;
+			targetProxy = 0B78FA49212C651B000A2507 /* PBXContainerItemProxy */;
+		};
+		0B78FA55212C651B000A2507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B78FA2F212C6519000A2507 /* Weirdo */;
+			targetProxy = 0B78FA54212C651B000A2507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B78FA39212C6519000A2507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B78FA3A212C6519000A2507 /* Base */,
+				85B59BF6216F22360031B7E1 /* zh-Hans */,
+				85B59BF9216F22620031B7E1 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B78FA3E212C651A000A2507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B78FA3F212C651A000A2507 /* Base */,
+				85B59BF5216F21E40031B7E1 /* en */,
+				85B59BF7216F22360031B7E1 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		85B59BFE216F23310031B7E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B59BFD216F23310031B7E1 /* en */,
+				85B59BFF216F23350031B7E1 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85B59C04216F24DE0031B7E1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B59C03216F24DE0031B7E1 /* en */,
+				85B59C05216F24DF0031B7E1 /* zh-Hans */,
+				85B59C06216F250D0031B7E1 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B78FA5A212C651B000A2507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B78FA5B212C651B000A2507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B78FA5D212C651B000A2507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFFCB49F0333B793979166F /* Pods-Weirdo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUDB2357C9;
+				INFOPLIST_FILE = Weirdo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-ljx.Weirdo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B78FA5E212C651B000A2507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0EB4D550FA4C79F5BD20497 /* Pods-Weirdo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUDB2357C9;
+				INFOPLIST_FILE = Weirdo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-ljx.Weirdo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B78FA60212C651B000A2507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUDB2357C9;
+				INFOPLIST_FILE = WeirdoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-ljx.WeirdoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weirdo.app/Weirdo";
+			};
+			name = Debug;
+		};
+		0B78FA61212C651B000A2507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUDB2357C9;
+				INFOPLIST_FILE = WeirdoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-ljx.WeirdoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weirdo.app/Weirdo";
+			};
+			name = Release;
+		};
+		0B78FA63212C651B000A2507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUDB2357C9;
+				INFOPLIST_FILE = WeirdoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-ljx.WeirdoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Weirdo;
+			};
+			name = Debug;
+		};
+		0B78FA64212C651B000A2507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUDB2357C9;
+				INFOPLIST_FILE = WeirdoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-ljx.WeirdoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Weirdo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B78FA2B212C6519000A2507 /* Build configuration list for PBXProject "Weirdo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B78FA5A212C651B000A2507 /* Debug */,
+				0B78FA5B212C651B000A2507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B78FA5C212C651B000A2507 /* Build configuration list for PBXNativeTarget "Weirdo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B78FA5D212C651B000A2507 /* Debug */,
+				0B78FA5E212C651B000A2507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B78FA5F212C651B000A2507 /* Build configuration list for PBXNativeTarget "WeirdoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B78FA60212C651B000A2507 /* Debug */,
+				0B78FA61212C651B000A2507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B78FA62212C651B000A2507 /* Build configuration list for PBXNativeTarget "WeirdoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B78FA63212C651B000A2507 /* Debug */,
+				0B78FA64212C651B000A2507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B78FA28212C6519000A2507 /* Project object */;
+}

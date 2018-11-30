@@ -1,0 +1,10 @@
+platform:ios, '9.0'
+
+target 'Weirdo' do
+inhibit_all_warnings!
+
+pod 'Masonry'
+pod 'QMUIKit'
+pod 'lottie-ios'
+pod 'MBProgressHUD'
+end
